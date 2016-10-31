@@ -4,8 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hello, I am ahel.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I like the [Unix Philosophy][unix] and [Emacs][em].
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+One day I will probably put my email address here.
+
+
+[unix]:   https://en.wikipedia.org/wiki/Unix_philosophy
+[em]:     https://www.gnu.org/software/emacs/
