@@ -1,0 +1,148 @@
+---
+layout: post
+title:  "Daily Git"
+date:   2016-11-01 17:50:00
+categories: book
+---
+
+From Martin Dilger
+
+The author tells that Git is probably the most important innovation in software development in the last 10 years.
+
+## Basics
+
+When looking at the files in the .git directory there is a config file:
+
+```bash
+$ cat config | grep url
+# url = https://user@github.com/user/repo.git
+```
+
+The `git log` command shows the commit messages for one or all files. The parameter `--oneline` leaves out author and email:
+
+```bash
+$ git log --oneline _posts/irre.md
+# 7ce9393 fix spelling
+# d88cf88 irre
+```
+
+The `git status` command shows untracked or modified files.
+
+\"everything\" is stored in the **.git/objects/** database. An object is represented as a binary file named as the hash value of the original content and compressed with zlib. This SHA-1 hash can be created with `git hash-object _posts/irre.md`. There are four types ob objects: **Commit**, **Tree**, **Blob** and **Tag**. The objects can be retrieved via the hash value and pretty printed with `git cat-file -p bf59ee...`. Every commit references its parent commit or 0 in case of the initial commit or multiple parents in case of a merge commit.
+
+
+## Branch
+
+Branching is the feature that makes git so popular and powerful.
+
+The most upper commit of every branch is called the **head**. It's hash value can be found in **.git/refs/heads/** in files named like the branch. The currently checked out branch can be found in **.git/HEAD**.
+
+Creating a branch:
+
+```bash
+$ git branch feature-4711
+$ git branch 
+#   feature-4711
+# * master
+$ git checkout feature-4711
+```
+
+Resetting the current branch to the status of before the last two commits:
+
+```bash
+$ git reset --hard HEAD~2
+```
+
+For merging a merge tool is needed:
+
+```bash
+$ sudo aptitude install meld
+$ git config --global merge.tool meld
+$ git merge feature-4711
+$ git status
+$ git diff
+$ git mergetool
+$ git status # forgot commit?
+$ git log --graph
+```
+
+When there is no conflict a fast forward merge is done, just referencing the latest commit from the feature branch.
+
+## Rebase
+
+Imagine you are working on a feature branch and now there a new commits on master which you would also like to have on your branch. Then you say to yourself: **\"I wish I would have created the feature branch today and not yesterday\"** A possible solution would be to merge master to the feature branch but that would lead to a dirty history (graph). So the best choice is to do a
+
+```bash
+$ git rebase master
+```
+
+on the feature branch. This rewrites the history as if the feature branch has been created after the desired commits on master have been taken place.
+
+You can hardly undo a rebase. Be careful!
+
+## Remotes
+
+A repo can have one or multiple remote repositories. It is a convention name the main remote repo "origin".
+
+### Fetch
+
+```bash
+$ git fetch origin
+```
+
+Fetches all objects from the remote repo. The working directory remains unchanged.
+
+To apply the fetched remote changes to the working dir use:
+
+```bash
+$ git merge origin/master
+```
+
+### Pull Merge
+
+To do fetch + merge in one step use:
+
+```bash
+$ git pull origin master
+```
+
+If a **tracking branch** is configure in *.git/config* it is enough to type:
+
+```bash
+$ git pull
+```
+
+image of origin history after pull (merge) and push:
+
+![origin history after pull (merge)](/img/book/dailygit/pull-merge.png)
+
+
+### Pull Rebase
+
+```bash
+$ git pull --rebase
+```
+
+is also possible and does a fetch + rebase instead of merge. This linearises the history. The hash values of the commits are changed. Existing merge-commits disappear because of that. So it can be possible that conflicts must be resolved a second time. Then the rebase must be finished with
+
+```bash
+$ git rebase --continue
+```
+
+image of origin history after pull --rebase and push:
+
+![origin history after pull --rebase](/img/book/dailygit/pull-rebase.png)
+
+### Push
+
+```bash
+$ git push origin master
+```
+
+copies the local (commit-) objects to the remote repository and changes it's HEAD-pointer to the latest commit.
+This is only possible if the latest remote commit has been pulled to the local repo before. And it can only be pushed to a bare repository.
+
+A forced push is very dangerous. Data can be lost by setting the remote HEAD-pointer in non fast-forward way.
+
+
+
