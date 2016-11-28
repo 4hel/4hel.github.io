@@ -12,4 +12,6 @@ For now just some links:
 
 [Peter Norvig's blog](http://norvig.com/)
 
+[Matt Godbolt's gcc explorer](https://godbolt.org/)
+
 
