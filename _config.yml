@@ -8,5 +8,8 @@ url: "https://4hel.github.io"
 github_username:  4hel
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 permalink: /:categories/:title.html
+
+redcarpet:
+    extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
