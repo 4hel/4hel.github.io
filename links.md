@@ -12,6 +12,8 @@ For now just some links:
 
 [Peter Norvig's blog](http://norvig.com/)
 
+[the grugq](https://medium.com/@thegrugq)
+
 [Matt Godbolt's gcc explorer](https://godbolt.org/)
 
 
