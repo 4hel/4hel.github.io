@@ -2,7 +2,7 @@
 layout: post
 title:  "Haben und Sein"
 date:   2016-10-14 13:50:45
-categories: buch
+categories: misc
 ---
 Von Balthasar Staehelin.
 
