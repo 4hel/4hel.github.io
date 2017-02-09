@@ -17,3 +17,5 @@ For now just some links:
 [Matt Godbolt's gcc explorer](https://godbolt.org/)
 
 [AZ Quotes](http://www.azquotes.com/author/12384-Dennis_Ritchie)
+
+[Harmful Software](http://harmful.cat-v.org/software/)
