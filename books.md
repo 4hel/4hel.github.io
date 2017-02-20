@@ -6,6 +6,8 @@ permalink: /books/
 
 Candidates For Reading:
 
+[Docker](https://www.amazon.de/dp/386490384X)
+
 [New Programmers Start Here](https://www.amazon.de/dp/097528388X)
 
 [Unix Network Programming](https://www.amazon.de/dp/0131411551)
