@@ -6,9 +6,11 @@ permalink: /books/
 
 Candidates For Reading:
 
-[Writing an Interpreter in Go](https://interpreterbook.com/)
+[REST und HTTP](https://www.amazon.de/dp/3864901200)
 
 [Docker](https://www.amazon.de/dp/386490384X)
+
+[Writing an Interpreter in Go](https://interpreterbook.com/)
 
 [New Programmers Start Here](https://www.amazon.de/dp/097528388X)
 
