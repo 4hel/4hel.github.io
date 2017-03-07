@@ -22,7 +22,12 @@ a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
 a:visited { color: #205caa; }
 
-/* Table */
+
+td {
+    padding-right: 10px;
+}
+
+/* Table 
 
 table {
     padding: 0;
@@ -58,7 +63,7 @@ table tr th :last-child,
 table tr td :last-child {
   margin-bottom: 0;
 }
-
+*/
 
 /* Utility */
 
