@@ -6,6 +6,10 @@ permalink: /books/
 
 Candidates For Reading:
 
+[Kubernetes: Up and Running](https://www.amazon.de/dp/1491935677)
+
+[Go Programming Blueprints](https://www.amazon.de/dp/1786468948)
+
 [REST und HTTP](https://www.amazon.de/dp/3864901200)
 
 [Docker](https://www.amazon.de/dp/386490384X)
