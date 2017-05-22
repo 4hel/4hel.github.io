@@ -5,6 +5,21 @@ date:   2017-05-22 18:00:00
 categories: wisdom
 ---
 
+[http://datascienceatthecommandline.com/](http://datascienceatthecommandline.com/)
+
+```bash
+$ sudo pip install csvkit
+$ csvlook --help
+$ echo -e "a,b\n1,2\n3,4" | csvlook
+|----+----|
+|  a | b  |
+|----+----|
+|  1 | 2  |
+|  3 | 4  |
+|----+----|
+```
+
+
 All Time Greats: [http://www.commandlinefu.com/commands/browse/sort-by-votes](http://www.commandlinefu.com/commands/browse/sort-by-votes)
 
 ```bash
