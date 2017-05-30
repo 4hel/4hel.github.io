@@ -13,7 +13,7 @@ categories: wisdom
 >
 > “While I was away I got this great idea …”
 >
-> So Do we really need a 40-Hour Week?
+> So do we really need a 40-Hour Week?
 >
 > You waste years by not being able to waste hours...
 >
