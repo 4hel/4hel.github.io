@@ -13,5 +13,9 @@ categories: wisdom
 >
 > “While I was away I got this great idea …”
 >
+> So Do we really need a 40-Hour Week?
+>
+> You waste years by not being able to waste hours...
+>
 > -- <cite>[Morgan Housel](http://www.collaborativefund.com/blog/the-advantage-of-being-a-little-bit-underemployed/)</cite>
 
