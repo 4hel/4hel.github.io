@@ -17,5 +17,8 @@ categories: wisdom
 >
 > You waste years by not being able to waste hours...
 >
-> -- <cite>[Morgan Housel](http://www.collaborativefund.com/blog/the-advantage-of-being-a-little-bit-underemployed/)</cite>
+> -- <cite>Morgan Housel</cite>
+
+
+[http://www.collaborativefund.com/blog/the-advantage-of-being-a-little-bit-underemployed/](http://www.collaborativefund.com/blog/the-advantage-of-being-a-little-bit-underemployed/)
 
