@@ -7,5 +7,5 @@ categories: wisdom
 
 > Talk is cheap. Show me the code.
 >
-> -- <cite>[Linux Torvalds](https://lkml.org/lkml/2000/8/25/132)</cite>
+> -- <cite>[Linus Torvalds](https://lkml.org/lkml/2000/8/25/132)</cite>
 
