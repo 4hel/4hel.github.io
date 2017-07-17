@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Learn Unix"
+title:  "Talk is cheap"
 date:   2017-07-17 11:40:00
 categories: wisdom
 ---
