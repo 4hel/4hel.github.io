@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Hello, I am ahel.
+Hello,
 
-I like the [Unix Philosophy][unix] and [Emacs][em].
+I like the [Unix Philosophy][unix] and [Go][go].
 
-One day I will probably put my email address here.
+You can email me to my github id @posteo.de.
 
 
 [unix]:   https://en.wikipedia.org/wiki/Unix_philosophy
-[em]:     https://www.gnu.org/software/emacs/
+[go]:     https://golang.org/
