@@ -6,6 +6,8 @@ permalink: /books/
 
 Candidates For Reading:
 
+[Data Science at the Command Line](https://www.amazon.de/dp/1491947853)
+
 [Kubernetes: Up and Running](https://www.amazon.de/dp/1491935677)
 
 [REST und HTTP](https://www.amazon.de/dp/3864901200)
