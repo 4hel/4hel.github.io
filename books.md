@@ -6,15 +6,13 @@ permalink: /books/
 
 Candidates For Reading:
 
-[Data Science at the Command Line](https://www.amazon.de/dp/1491947853)
+[Bulletproof SSL and TLS](https://www.amazon.de/dp/1907117040)
 
-[Kubernetes: Up and Running](https://www.amazon.de/dp/1491935677)
+[Data Science at the Command Line](https://www.amazon.de/dp/1491947853)
 
 [REST und HTTP](https://www.amazon.de/dp/3864901200)
 
 [Writing an Interpreter in Go](https://www.amazon.de/dp/300055808X)
-
-[New Programmers Start Here](https://www.amazon.de/dp/097528388X)
 
 [Unix Network Programming](https://www.amazon.de/dp/0131411551)
 
