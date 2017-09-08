@@ -6,6 +6,10 @@ permalink: /books/
 
 Candidates For Reading:
 
+[Soft Skills:The software developer's life manual](https://www.amazon.de/dp/1617292397) <-- Business !
+
+[Cracking the Coding Interview](https://www.amazon.de/dp/0984782850)
+
 [Bulletproof SSL and TLS](https://www.amazon.de/dp/1907117040)
 
 [Data Science at the Command Line](https://www.amazon.de/dp/1491947853)
