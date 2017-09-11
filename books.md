@@ -6,6 +6,8 @@ permalink: /books/
 
 Candidates For Reading:
 
+[You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
+
 [Soft Skills:The software developer's life manual](https://www.amazon.de/dp/1617292397) <-- Business !
 
 [Cracking the Coding Interview](https://www.amazon.de/dp/0984782850)
