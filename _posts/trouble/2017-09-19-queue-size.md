@@ -2,7 +2,7 @@
 layout: post
 title:  "Queue Size and Slow Query Log"
 date:   2017-09-19 22:00:00
-categories: wisdom
+categories: trouble
 ---
 
 Watch the size of your **message queue**!
