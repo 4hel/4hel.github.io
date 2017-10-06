@@ -6,13 +6,17 @@ permalink: /links/
 
 For now just some links:
 
-[Peteris Krumins' blog](http://www.catonmat.net/blog/top-100-books-part-one/)
+[Golang Actor / Stateful Service](https://www.youtube.com/watch?v=LHe1Cb_Ud_M)
 
-[Jorgen Schäfer's blog](http://blog.jorgenschaefer.de/2014/07/why-systemd.html)
+[Bash 1.](http://www.catonmat.net/blog/bash-one-liners-explained-part-one/)
+[Bash 2.](http://www.catonmat.net/blog/bash-one-liners-explained-part-two/)
+[Bash 3.](http://www.catonmat.net/blog/bash-one-liners-explained-part-three/)
 
-[Peter Norvig's blog](http://norvig.com/)
+[Youtube Hacker Channel](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w/videos)
 
-[the grugq](https://medium.com/@thegrugq)
+[Go Slice Tricks](https://github.com/golang/go/wiki/SliceTricks)
+
+[Linux System Calls](http://thevivekpandey.github.io/posts/2017-09-25-linux-system-calls.html)
 
 [Matt Godbolt's gcc explorer](https://godbolt.org/)
 
