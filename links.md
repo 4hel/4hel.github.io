@@ -6,7 +6,9 @@ permalink: /links/
 
 For now just some links:
 
-[event-driven architecture](https://herbertograca.com/2017/10/05/event-driven-architecture/?imm_mid=0f735b&cmp=em-prog-na-na-newsltr_20171014)
+[go-best-practices](https://peter.bourgon.org/go-best-practices-2016/)
+
+[event-driven architecture](https://herbertograca.com/2017/10/05/event-driven-architecture/)
 
 [Golang Actor / Stateful Service](https://www.youtube.com/watch?v=LHe1Cb_Ud_M)
 
