@@ -6,6 +6,8 @@ permalink: /links/
 
 For now just some links:
 
+[event-driven architecture](https://herbertograca.com/2017/10/05/event-driven-architecture/?imm_mid=0f735b&cmp=em-prog-na-na-newsltr_20171014)
+
 [Golang Actor / Stateful Service](https://www.youtube.com/watch?v=LHe1Cb_Ud_M)
 
 [Bash 1.](http://www.catonmat.net/blog/bash-one-liners-explained-part-one/)
