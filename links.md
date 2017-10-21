@@ -6,6 +6,12 @@ permalink: /links/
 
 For now just some links:
 
+[Recurse Center](https://www.recurse.com/)
+
+[Leah Hanson on Lexing and Parsing](http://blog.leahhanson.us/post/recursecenter2016/recipeparser.html)
+
+[Handwritten Parsers & Lexers in Go](https://blog.gopheracademy.com/advent-2014/parsers-lexers/)
+
 [go-best-practices](https://peter.bourgon.org/go-best-practices-2016/)
 
 [event-driven architecture](https://herbertograca.com/2017/10/05/event-driven-architecture/)
