@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Omnisophie"
-date:   2018-06-06 14:30:00
+date:   2018-08-08 14:30:00
 categories: philosophie
 ---
 
