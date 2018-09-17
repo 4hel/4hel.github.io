@@ -72,7 +72,7 @@ Create a Deployment:
 
 Create a Service with ClusterIP from the deployment:
 
-`kubectl expose deployment alpaca-prod`
+`kubectl expose deployment alpaca-prod` optionally `--type=` **NodePort** or **LoadBalancer**
 
 This ClusterIP can be resolved via **DNS** :
 
