@@ -87,3 +87,18 @@ This ClusterIP can be resolved via **DNS** :
 alpaca-prod.default.svc.cluster.local.	30	IN	A	10.100.196.205
 ```
 
+## 11. ConfigMaps and Secrets
+
+ConfigMap
+
+`kubectl create configmap my-config --from-file=my-config.txt --from-literal=extra-param=extra-value --from-literal=another-param=another-value`
+
+Secret
+
+`kubectl create secret generic kuard-tls --from-file=kuard.crt --from-file=kuard.key`
+
+Also useful **imagePullSecrets**
+
+Also useful **--dry-run -o yaml**
+
+`kubectl create secret generic kuard-tls --from-file=kuard.crt --from-file=kuard.key --dry-run -o yaml  | kubectl replace -f -`
