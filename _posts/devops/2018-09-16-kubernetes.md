@@ -155,7 +155,7 @@ Putting an Annotation for Change Cause
 
 ## 13. Integrating Storage
 
-### Services without Selectors
+### External Database (IP)
 
 A Service can have the type **ExternalName**.
 
@@ -189,3 +189,7 @@ subsets:
     ports:
     - port: 3306
 ```
+
+### MySQL Singleton
+
+For example via **EBS** with **PersistentVolume** and **PersistentVolumeClaim**
