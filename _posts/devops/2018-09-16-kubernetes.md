@@ -5,6 +5,10 @@ date:   2018-09-16 10:00:00
 categories: devops
 ---
 
+* TOC
+{:toc}
+
+
 ## 4. kubectl
 
 The `kubectl` command-line utility is used to interact with the kubernetes API
@@ -149,3 +153,38 @@ Putting an Annotation for Change Cause
 `kubectl rollout undo deployment nginx --to-revision=3`
 
 
+## 13. Integrating Storage
+
+### Services without Selectors
+
+A Service can have the type **ExternalName**.
+
+```yaml
+kind: Service
+apiVersion: v1
+metadata:
+  name: external-database
+spec:
+  type: ExternalName
+  externalName: database.company.com
+```
+
+Or one can configure **Endpoints** manually for an IP Address.
+
+```yaml
+kind: Service
+apiVersion: v1
+metadata:
+  name: external-ip-database
+```
+
+```yaml
+kind: Endpoints
+apiVersion: v1
+metadata:
+  name: external-ip-database
+subsets:
+  - addresses:
+    - ip: 192.168.0.1
+    ports:
+    - port: 3306
