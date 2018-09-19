@@ -102,3 +102,50 @@ Also useful **imagePullSecrets**
 Also useful **--dry-run -o yaml**
 
 `kubectl create secret generic kuard-tls --from-file=kuard.crt --from-file=kuard.key --dry-run -o yaml  | kubectl replace -f -`
+
+## 12. Deployments
+
+create:
+
+`kubectl run nginx --image=nginx:1.7.12`i
+
+Relationship to the ReplicaSet is defined by label
+
+`kubectl get replicasets --selector=run=nginx`
+
+Exporting the yaml
+
+`kubectl get deployment nginx --export  -o yaml > nginx-deployment.yaml`
+
+### Updating a Container Image
+
+Updating Image
+
+```
+      containers:
+      - image: nginx:1.9.10
+        imagePullPolicy: IfNotPresent
+```
+
+Putting an Annotation for Change Cause
+
+```
+  template:
+    metadata:
+      annotations:
+        kubernetes.io/change-cause: "Update nginx to 1.9.10"
+```
+
+`kubectl rollout status deployment nginx`
+
+`kubectl rollout history deployment nginx`
+
+`kubectl rollout pause deployment nginx`
+
+`kubectl rollout resume deployment nginx`
+
+### Undo Rollout
+
+`kubectl rollout undo deployment nginx --to-revision=3`
+
+
