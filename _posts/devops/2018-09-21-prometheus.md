@@ -32,7 +32,7 @@ Counters are numbers that increase over time and never decrease like number ob b
 A Historgram is a (graphical) frequency distribution (Häufigkeitsverteilung) of a dataset. The first step is to bucket the range of values and then count observations. The result are multiple metrics: one for each bucket.
 
 
-## Methodolohies
+## Methodologies
 
 ### The USE Method
 
