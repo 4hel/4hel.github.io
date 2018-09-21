@@ -5,6 +5,10 @@ date:   2018-09-21 16:30:00
 categories: devops
 ---
 
+* TOC
+{:toc}
+
+
 ## Fundamentals
 
 ### Health of a Service
