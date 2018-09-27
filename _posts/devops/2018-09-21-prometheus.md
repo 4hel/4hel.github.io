@@ -80,4 +80,11 @@ A value in a time series is called a **sample**. It consists of:
 
 ## PromQL
 
+CPU Utilization
+
 `100 - avg(irate(node_cpu_seconds_total{job="node",mode="idle"}[5m])) by (instance) * 100`
+
+Is load 2 times greater than number of cpus ?
+
+`node_load1 > on (instance) 2 * count by (instance) (node_cpu_seconds_total{mode="idle"})`
+
