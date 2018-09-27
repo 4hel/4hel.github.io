@@ -55,3 +55,24 @@ This is for **application monitoring** (From the SRE Book)
 * **Errors** the rate that requests fail, like HTTP 500
 
 * **Saturation** the "fullness" of the applications resources like memory or IO.
+
+## Architecture
+
+A Source of metrics that is scraped is called an **endpoint**. To scrape an endpoint a configuration called **target** is needed. A group of targets is called a **job** e.g. a cluster of apache servers.
+
+## Data Model
+
+### Labels
+
+A time series is identified by its name and labels. But the name is also a label called `__name__`
+
+There are **instrumentation labels** which are added at the source before scraping and **target labels** which are added by Prometheus during and after the scrape.
+
+There are two types of target relabeling: `relabel_configs` happens **before** the scrape and `metric_relabel_configs` happens **after** the scrape.
+
+### Samples
+
+A value in a time series is called a **sample**. It consists of:
+
+* A float64 value
+* A millisecond-precision timestamp
