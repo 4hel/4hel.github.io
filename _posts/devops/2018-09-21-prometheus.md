@@ -76,3 +76,8 @@ A value in a time series is called a **sample**. It consists of:
 
 * A float64 value
 * A millisecond-precision timestamp
+
+
+## PromQL
+
+`100 - avg(irate(node_cpu_seconds_total{job="node",mode="idle"}[5m])) by (instance) * 100`
