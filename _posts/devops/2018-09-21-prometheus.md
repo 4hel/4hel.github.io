@@ -95,3 +95,7 @@ Memory percent used
 Rate of paging in and out of memory
 
 `1024 * sum by (instance) ( rate(node_vmstat_pgpgin[1m]) + rate(node_vmstat_pgpgout[1m]))`
+
+Disk usage percent
+
+`(node_filesystem_size_bytes{mountpoint="/"} - node_filesystem_free_bytes{mountpoint="/"} ) / node_filesystem_size_bytes{mountpoint="/"} * 100`
