@@ -88,3 +88,6 @@ Is load 2 times greater than number of cpus ?
 
 `node_load1 > on (instance) 2 * count by (instance) (node_cpu_seconds_total{mode="idle"})`
 
+Memory percent used
+
+`(node_memory_MemTotal_bytes - (node_memory_MemFree_bytes + node_memory_Cached_bytes + node_memory_Buffers_bytes)) / node_memory_MemTotal_bytes * 100`
