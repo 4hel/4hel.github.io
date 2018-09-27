@@ -103,3 +103,7 @@ Disk usage percent
 Predict linear
 
 `predict_linear(node_filesystem_free_bytes{mountpoint="/"}[1h], 4*3600)`
+
+Vector match
+
+`node_systemd_unit_state{name="docker.service"} == 1 and on (instance, job) metadata{datacenter="NJ"}`
