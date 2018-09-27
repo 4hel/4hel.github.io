@@ -99,3 +99,7 @@ Rate of paging in and out of memory
 Disk usage percent
 
 `(node_filesystem_size_bytes{mountpoint="/"} - node_filesystem_free_bytes{mountpoint="/"} ) / node_filesystem_size_bytes{mountpoint="/"} * 100`
+
+Predict linear
+
+`predict_linear(node_filesystem_free_bytes{mountpoint="/"}[1h], 4*3600)`
