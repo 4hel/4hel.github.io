@@ -107,3 +107,12 @@ Predict linear
 Vector match
 
 `node_systemd_unit_state{name="docker.service"} == 1 and on (instance, job) metadata{datacenter="NJ"}`
+
+## Instrumentation
+
+In order to track **request rate** and **latency** a **Summary** metric is used which creates the two time series sum and count.
+
+Request rate: `rate(request_processing_seconds_count[1m])`
+
+Latency: `rate(request_processing_seconds_sum[1m]) / rate(request_processing_seconds_count[1m])`
+
