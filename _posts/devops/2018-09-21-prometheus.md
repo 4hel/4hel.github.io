@@ -112,7 +112,11 @@ Vector match
 
 In order to track **request rate** and **latency** a **Summary** metric is used which creates the two time series sum and count.
 
-Request rate: `rate(request_processing_seconds_count[1m])`
+Request rate: 
 
-Latency: `rate(request_processing_seconds_sum[1m]) / rate(request_processing_seconds_count[1m])`
+`rate(request_processing_seconds_count[1m])`
+
+Latency: 
+
+`rate(request_processing_seconds_sum[1m]) / rate(request_processing_seconds_count[1m])`
 
