@@ -110,6 +110,8 @@ Vector match
 
 ## Instrumentation
 
+### Summary
+
 In order to track **request rate** and **latency** a **Summary** metric is used which creates the two time series sum and count.
 
 Request rate: 
@@ -120,3 +122,27 @@ Latency:
 
 `rate(request_processing_seconds_sum[1m]) / rate(request_processing_seconds_count[1m])`
 
+While the summary provides total request_count and latency_sum, it also calculates configurable **quantiles** over a sliding time window.
+This is called **client-side percentiles**. These provide some level of insight but are **non-aggregable** across dimensions.
+
+### Histogram
+
+A histogram with a base metric name of `<basename>` exposes multiple time series during a scrape:
+
+* cumulative counters for the observation buckets, exposed as `<basename>_bucket{le="<upper inclusive bound>"}`
+
+* the **total_sum** of all observed values, exposed as `<basename>_sum`
+
+* the **count** of events that have been observed, exposed as `<basename>_count` (identical to `<basename>_bucket{le="+Inf"}`)
+
+If your service runs replicated with a number of instances, you will collect request durations from every single one of them, and then you want to aggregate everything into an overall 95th percentile. However, aggregating the precomputed quantiles from a summary rarely makes sense. In this particular case, averaging the quantiles yields statistically nonsensical values:
+
+```
+avg(http_request_duration_seconds{quantile="0.95"}) // BAD!
+```
+
+Using histograms, the **aggregation** is perfectly possible with the histogram_quantile() function.
+
+```
+histogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket[5m])) by (le)) // GOOD.
+```
