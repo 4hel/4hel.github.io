@@ -129,7 +129,7 @@ This is called **client-side percentiles**. These provide some level of insight 
 
 A histogram with a base metric name of `<basename>` exposes multiple time series during a scrape:
 
-* cumulative counters for the observation buckets, exposed as `<basename>_bucket{le="<upper inclusive bound>"}`
+* cumulative counters for the observation **buckets**, exposed as `<basename>_bucket{le="<upper inclusive bound>"}`
 
 * the **total_sum** of all observed values, exposed as `<basename>_sum`
 
