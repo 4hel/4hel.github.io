@@ -144,5 +144,5 @@ avg(http_request_duration_seconds{quantile="0.95"}) // BAD!
 Using histograms, the **aggregation** is perfectly possible with the histogram_quantile() function.
 
 ```
-histogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket[5m])) by (le)) // GOOD.
+histogram_quantile( 0.95, sum(rate(http_server_requests_seconds_bucket{status="200"}[5m])) by (container_name, uri, le)) // GOOD.
 ```
