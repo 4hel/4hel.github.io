@@ -30,3 +30,9 @@ Delete Index
 ```bash
 curl -k -X DELETE https://localhost:8081/twitter
 ```
+
+Search
+
+```bash
+curl -k -X GET -H "Accept: application/json" https://localhost:9200/logstash-2019.06.21/_search?q=source:stderr
+```
