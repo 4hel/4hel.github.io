@@ -32,7 +32,17 @@ Jede Gruppe denkt ihre Lebensweisen (folkways) seien die richtigen.
 - freiheit / staat
 
 
+## Der Stimulus-Response-Wahn
 
+Nach der Idee des Behaviorismus setzt man Tiere oder Menschen einem Stimulus aus um eine Response zu erzielen.
 
+Bei Menschen spricht man vom Anreizsystem aus Belohnung und Strafe.
 
+Man arbeitet ohne Introspektion oder Einfühlung. Ganz im Gegensatz zu gleichzeitig aufkommenden Psychoanalytischen Richtungen.
+
+Den Pawloschen Hunden läuft schon beim ertönen der Glocke das Wasser im Munde zusammen, weil sie wissen, es gibt gleich Fressen.
+
+Menschen ruft man zur Arbeit und sie freuen sich wie die Hunde wenn es irgendwann Geld ("Fressen") dafür gibt.
+
+Dueck wirft eim, das viele Stimulusgeber verzweifeln an mangelhafter Response der Stimulierten. Warum legt man nicht Hand an auf der Stimulusseite? Wer herscht dort? Der Wahn, es ginge auch auch mit so, mit billigen, einfachen Stimuli.
 
