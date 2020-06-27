@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1332.4775"
+   height="796.85132"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="RiemannTypen.svg"
+   inkscape:export-filename="/var/www/Philosophie/Bilder/RiemannTypen.png"
+   inkscape:export-xdpi="100"
+   inkscape:export-ydpi="100">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3808"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop3810" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         id="path3796"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mstart"
+       style="overflow:visible">
+      <path
+         id="path3793"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6,0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3808"
+       id="linearGradient3812"
+       x1="217.42015"
+       y1="401.59598"
+       x2="590.19556"
+       y2="401.59598"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="139.27718"
+     inkscape:cy="503.80216"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="30"
+     fit-margin-left="30"
+     fit-margin-right="30"
+     fit-margin-bottom="30"
+     inkscape:window-width="1528"
+     inkscape:window-height="885"
+     inkscape:window-x="-4"
+     inkscape:window-y="1021"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(254.45691,-36.367409)">
+    <path
+       style="fill:none;stroke:#00ff00;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow2Mend)"
+       d="m 390.71429,195.21933 0,371.42857"
+       id="path2985"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff00ff;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow2Mend)"
+       d="m 177.14286,380.93361 427.14286,0"
+       id="path2987"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="393.42487"
+       y="624.48401"
+       id="text2989"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="393.42487"
+         y="624.48401"
+         style="font-size:36px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="tspan3856">Hysterie</tspan><tspan
+         sodipodi:role="line"
+         x="393.42487"
+         y="661.51001"
+         style="font-size:28px;font-weight:normal;-inkscape-font-specification:Sans"
+         id="tspan3858">Angst vor <tspan
+   style="font-weight:bold;-inkscape-font-specification:Sans Bold"
+   id="tspan3104">Festlegung</tspan>, <tspan
+   style="font-weight:bold;-inkscape-font-specification:Sans Bold"
+   id="tspan3106">Notwendigkeit</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="393.42487"
+         y="696.51001"
+         style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="tspan3021">Wechsel-Typ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="392.8194"
+       y="93.718971"
+       id="text2993"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="392.8194"
+         y="93.718971"
+         style="font-size:36px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="tspan3090">Zwanghaftigkeit</tspan><tspan
+         sodipodi:role="line"
+         x="392.8194"
+         y="130.74498"
+         style="font-size:28px;font-weight:normal;-inkscape-font-specification:Sans"
+         id="tspan3102">Angst vor <tspan
+   style="font-weight:bold;-inkscape-font-specification:Sans Bold"
+   id="tspan3108">Wandlung</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="392.8194"
+         y="165.74498"
+         style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="tspan3023">Dauer-Typ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="844.0636"
+       y="373.69537"
+       id="text4763"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="844.0636"
+         y="373.69537"
+         style="font-size:36px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="tspan3072">Schizoidie</tspan><tspan
+         sodipodi:role="line"
+         x="844.0636"
+         y="410.72137"
+         id="tspan4775">Angst vor <tspan
+   style="font-weight:bold;-inkscape-font-specification:Sans Bold"
+   id="tspan3070">(Selbst-)Hingabe</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="844.0636"
+         y="445.72137"
+         id="tspan3017"
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold">Distanz-Typ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-34.171753"
+       y="373.69537"
+       id="text4767"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-34.171753"
+         y="373.69537"
+         id="tspan4781"
+         style="font-size:36px;font-weight:bold;writing-mode:lr-tb;-inkscape-font-specification:Sans Bold">Depression</tspan><tspan
+         sodipodi:role="line"
+         x="-34.171753"
+         y="410.72137"
+         id="tspan3018">Angst vor <tspan
+   style="font-weight:bold;-inkscape-font-specification:Sans Bold"
+   id="tspan3068">Selbstwerdung</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="-34.171753"
+         y="445.72137"
+         id="tspan3019"
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold">Nähe-Typ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="494.71616"
+       y="788.20166"
+       id="text3024"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3026"
+         x="494.71616"
+         y="788.20166"
+         style="font-size:32px;fill:#000000;fill-opacity:1"><tspan
+   style="fill:#ff00ff"
+   id="tspan3854">Integrations </tspan>- Achse</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="-71.255226"
+       y="790.67554"
+       id="text3814"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3816"
+         x="-71.255226"
+         y="790.67554"><tspan
+   style="fill:#00ff00"
+   id="tspan3850">Transformations </tspan>- Achse</tspan></text>
+    <rect
+       style="fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3828"
+       width="43.436558"
+       height="43.436558"
+       x="434.10699"
+       y="757.78027" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3828-1"
+       width="43.436558"
+       height="43.436558"
+       x="-133.59874"
+       y="758.2854" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3023"
+       sodipodi:cx="620.71429"
+       sodipodi:cy="367.03455"
+       sodipodi:rx="11.428572"
+       sodipodi:ry="11.428572"
+       d="m 632.14287,367.03455 c 0,6.31182 -5.11675,11.42857 -11.42858,11.42857 -6.31182,0 -11.42857,-5.11675 -11.42857,-11.42857 0,-6.31183 5.11675,-11.42858 11.42857,-11.42858 6.31183,0 11.42858,5.11675 11.42858,11.42858 z"
+       transform="translate(-230,13.899069)" />
+  </g>
+</svg>
