@@ -64,3 +64,14 @@ Es werden vier Grundstrategien charakterisiert:
 ![Omnisophie Dreieck](/img/philosophie/omni-dreieck.svg)
 
 Die wahren Menschen gehen oft auf das System zu um ihre jeweiligen Ideen einzubringen. Sie hoffen im System etwas zum wahren zu gestalten. Diese Hoffnung hält sie im System. Sonst müssten sie Einsiedler werden.
+
+
+## Mehr Ruhe oder mehr Stress
+
+Der Erregungslevel (\"arousal\") ist bei Leuten die an komplexen Arbeiten sitzen oft zu hoch. 
+
+Der Autor beispielsweise dreht das Autoradio leise, wenn er sich einem unbekannten Ziel nähert und einen komplizierten Parkplatz suchen muss. Er braucht Ruhe!
+
+Die Wissenschaftler Yerkes und Dodson haben dies untersucht und folgende Kurve veröffentlicht:
+
+![Yerkes Dodson](/img/philosophie/Yerkes-Dodson.jpg)
