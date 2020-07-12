@@ -75,3 +75,13 @@ Der Autor beispielsweise dreht das Autoradio leise, wenn er sich einem unbekannt
 Die Wissenschaftler Yerkes und Dodson haben dies untersucht und folgende Kurve veröffentlicht:
 
 ![Yerkes Dodson](/img/philosophie/Yerkes-Dodson.jpg)
+
+Diese Kurve ist allerdings verschieden für die unterschiedlichen Menschentypen. Mancher verträgt mehr Stress und mancher weniger:
+
+![Arousal Types](/img/philosophie/arousal.svg)
+
+Die linke Kurve entspricht mehr den wahren Menschen. Sie sind in der Komfort Zone wenn sie in Ruhe nachdenken können.
+
+Die mittlere Kurve entspricht meist den richtigen Menschen. Sie schauen was "man" macht.
+
+Den Menschen mit der rechten Kurve ist oft noch langweilig wenn andere schon ausflippen. Sie können oft gut Verhandeln und Konflikte austragen.
