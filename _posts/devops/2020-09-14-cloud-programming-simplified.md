@@ -14,22 +14,22 @@ It gives a bit of a history and decribes how system administration operations ar
 
 ## Introduction
 
-In 2009 there were two competing approaches to virtualization in the cloud 
+In 2009 there were two competing approaches to virtualization in the cloud:
 
-Amazon EC2 Looking like a physical machine. The user can control the entire stack from the kernel upwards.
+**Amazon EC2**: Looking like a physical machine. The user can control the entire stack from the kernel upwards.
 
-Google App Engine application domain-specific platform with a clean separation between a stateless computation tier and a stateful storage tier.
+**Google App Engine**: application domain-specific platform with a clean separation between a stateless computation tier and a stateful storage tier.
 
 The market embraced Amazon's Low-Level approach. Probably because in the early days this made it easier to migrate existing workloads to the cloud.
 
-But over time the demand was growing to have backend services without having to deal with low- level system administration.
+But over time the demand was growing to have backend services without having to deal with low-level system administration.
 
 This need was addressed with **FaaS** (Function as a Service) like Amazon Lambda and **BaaS** (Backend as a Service) Like Firebase Or Dynamo DB.
 
 `Serverless = FaaS + BaaS` (including automatic scaling and billing by usage)
 
 
-## Emergence of serveries computing
+## Emergence of serverless computing
 
 ![table](/img/devops/serverless/sls-tab2.png)
 
@@ -47,9 +47,9 @@ Edge computing offers to execute serverless functions at facilities close to the
 
 ## Limitations
 
-Broadcast, aggregation and shuffle are common communication primitives in distributed systems. In VM-based computing, these cause Less remote messages than in serverless computing.
+Broadcast, aggregation and shuffle are common communication primitives in distributed systems. In VM-based computing, these cause less remote messages than in serverless computing.
 
-Typical use cases for these are machine Learning and big data analytics.
+Typical use cases for these are **machine Learning** and **big data analytics**.
 
 ![patterns](/img/devops/serverless/sls-patters.png)
 
