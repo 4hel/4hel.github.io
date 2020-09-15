@@ -31,7 +31,7 @@ This need was addressed with **FaaS** (Function as a Service) like Amazon Lambda
 
 ## Emergence of serveries computing
 
-![table](/img/devops/serverless/sls-tab.jpeg)
+![table](/img/devops/serverless/sls-tab2.png)
 
 In the cloud context, serverful computing is like programming low-Level assembly language, whereas serverless computing is Like programming in a high level language like python including automatic memory management. Container orchestration platforms Like a managed Kubernetes can be seen as an intermediate step like programming in C.
 
