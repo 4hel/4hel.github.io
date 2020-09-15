@@ -24,7 +24,7 @@ The market embraced Amazon's Low-Level approach. Probably because in the early d
 
 But over time the demand was growing to have backend services without having to deal with low-level system administration.
 
-This need was addressed with **FaaS** (Function as a Service) like Amazon Lambda and **BaaS** (Backend as a Service) Like Firebase Or Dynamo DB.
+This need was addressed by **FaaS** (Function as a Service) like Amazon Lambda and **BaaS** (Backend as a Service) Like Firebase Or Dynamo DB.
 
 `Serverless = FaaS + BaaS` (including automatic scaling and billing by usage)
 
