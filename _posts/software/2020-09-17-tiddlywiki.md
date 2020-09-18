@@ -14,7 +14,7 @@ npm install -g tiddlywiki
 tiddlywiki --version
 
 tiddlywiki mynewwiki --init server
-tiddlywiki mynewwiki --liste
+tiddlywiki mynewwiki --listen
 
 ```
 
