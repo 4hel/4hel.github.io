@@ -5,6 +5,8 @@ date:   2021-02-04 20:00:00
 categories: programming
 ---
 
+GitHub has a free npm package repository
+
 see also: [https://docs.github.com/en/packages/guides/configuring-npm-for-use-with-github-packages](https://docs.github.com/en/packages/guides/configuring-npm-for-use-with-github-packages)
 
 ## Authentication
@@ -17,7 +19,7 @@ then in your home directory create a file .npmrc` with the content:
 //npm.pkg.github.com/:_authToken=8474474893739004394040xxxxxxxxxxxxxxxxxx
 ```
 
-## Publish
+## Publish a Package
 
 in your `package.json` put a scope to the name: `@owner/name`
 
@@ -37,3 +39,19 @@ then publish the package:
 npm publish
 ```
 
+
+## Install a Package
+
+in the client project create a file `.npmrc` with the content:
+
+```
+registry=https://npm.pkg.github.com/OWNER
+```
+
+then add the scoped dependency to `package.json` like `@owner/libname`
+
+then run:
+
+```
+npm install
+```
