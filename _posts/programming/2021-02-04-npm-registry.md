@@ -5,9 +5,10 @@ date:   2021-02-04 20:00:00
 categories: programming
 ---
 
-GitHub has a free npm package repository
+**UPDATE**
 
-see also: [https://docs.github.com/en/packages/guides/configuring-npm-for-use-with-github-packages](https://docs.github.com/en/packages/guides/configuring-npm-for-use-with-github-packages)
+Don't do this. Github Actions Token does not have the privilege to publish the npm package.
+You always need a personal access token with full repo access. This sucks!
 
 ## Authentication
 
